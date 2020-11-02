@@ -20,7 +20,8 @@ const routes = [
 
 const router = new VueRouter({
   mode: "history",
-  base: process.env.BASE_URL,
+  // harcoded for now. But passing BASE_URL would be an option
+  base: '/vue', //process.env.BASE_URL,
   routes
 });
 
