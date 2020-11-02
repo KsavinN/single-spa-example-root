@@ -1,13 +1,15 @@
 import './set-public-path';
-import { h, createApp } from 'vue';
+import Vue from 'vue';
 import singleSpaVue from 'single-spa-vue';
 
 import App from './App.vue';
 
+Vue.config.productionTip = false;
+
 const vueLifecycles = singleSpaVue({
-  createApp,
+  Vue,
   appOptions: {
-    render() {
+    render(h) {
       return h(App, {
         props: {
           // single-spa props are available on the "this" object. Forward them to your component as needed.

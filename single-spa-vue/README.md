@@ -1,4 +1,4 @@
-# single-spa
+# single-spa-vue
 
 ## Project setup
 ```
