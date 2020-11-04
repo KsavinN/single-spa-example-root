@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,6 +12,8 @@
     browsers. More information at https://github.com/single-spa/create-single-spa/issues/112
   -->
   <script src="https://cdn.jsdelivr.net/npm/regenerator-runtime@0.13.5/runtime.min.js"></script>
+  <!-- This is for Angular apps -->
+  <script src="https://cdn.jsdelivr.net/npm/zone.js@0.10.3/dist/zone.min.js"></script>
   <!-- 
     This CSP allows any SSL-enabled host, but you should limit these directives further to increase your app's security.
     Learn more about CSP policies at https://content-security-policy.com/#directive
@@ -46,7 +49,8 @@
     {
       "imports": {
         "@pccw/root-config": "//localhost:9000/pccw-root-config.js",
-        "@pccw/single-spa-vue": "//localhost:8080/js/app.js"
+        "@pccw/single-spa-vue": "//localhost:8080/js/app.js",
+        "@pccw/single-spa-angular": "http://localhost:4201/main.js"
       }
     }
   </script>
@@ -70,6 +74,7 @@
   <script src="https://cdn.jsdelivr.net/npm/systemjs@6.4.0/dist/extras/named-exports.min.js"></script>
   <% } %>
 </head>
+
 <body>
   <main></main>
   <script>
@@ -77,4 +82,5 @@
   </script>
   <import-map-overrides-full show-when-local-storage="devtools" dev-libs></import-map-overrides-full>
 </body>
+
 </html>

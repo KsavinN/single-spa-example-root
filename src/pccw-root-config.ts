@@ -12,7 +12,13 @@ registerApplication({
 registerApplication({
   name: "@pccw/single-spa-vue",
   app: () => System.import("@pccw/single-spa-vue"),
-  activeWhen: ["/vue"]
+  activeWhen: ["/vue"],
+});
+
+registerApplication({
+  name: "@pccw/single-spa-angular",
+  app: () => System.import("@pccw/single-spa-angular"),
+  activeWhen: ["/angular"],
 });
 
 start({
