@@ -18,6 +18,12 @@ registerApplication({
   activeWhen: ["/angular"],
 });
 
+registerApplication({
+  name: "@pccw/poc-react-single-spa",
+  app: () => System.import("@pccw/poc-react-single-spa"),
+  activeWhen: ["/react"],
+});
+
 start({
   urlRerouteOnly: true,
 });
