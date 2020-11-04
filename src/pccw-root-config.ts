@@ -1,12 +1,9 @@
 import { registerApplication, start } from "single-spa";
 
 registerApplication({
-  name: "@single-spa/welcome",
-  app: () =>
-    System.import(
-      "https://unpkg.com/single-spa-welcome/dist/single-spa-welcome.js"
-    ),
-  activeWhen: ["/welcome"],
+  name: "@pccw/single-spa-poc-navbar",
+  app: () => System.import("@pccw/single-spa-poc-navbar"),
+  activeWhen: ["/"],
 });
 
 registerApplication({
