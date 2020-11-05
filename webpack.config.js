@@ -1,6 +1,7 @@
 const webpackMerge = require("webpack-merge");
 const singleSpaDefaults = require("webpack-config-single-spa-ts");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
+const CopyPlugin = require("copy-webpack-plugin");
 
 module.exports = (webpackConfigEnv, argv) => {
   const orgName = "pccw";
@@ -29,6 +30,9 @@ module.exports = (webpackConfigEnv, argv) => {
             isLocal: webpackConfigEnv && webpackConfigEnv.isLocal === "true",
             orgName,
           },
+        }),
+        new CopyPlugin({
+          patterns: [{ from: "./public", to: "./" }],
         }),
       ],
     },
