@@ -1,6 +1,6 @@
 {
   "imports": {
-    "@pccw/root-config": "//localhost:9000/pccw-root-config.js",
+    "@pccw/root-config": "/pccw-root-config.js",
     "@pccw/single-spa-vue": "https://spa-poc-vue.netlify.app/js/app.21e0c99d.js",
     "@pccw/single-spa-angular": "http://localhost:4201/main.js",
     "@pccw/single-spa-util": "http://spa-poc-util.netlify.app/pccw-single-spa-util.js",
