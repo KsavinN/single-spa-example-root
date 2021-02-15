@@ -1,10 +1,10 @@
 {
   "imports": {
-    "@pccw/root-config": "/pccw-root-config.js",
-    "@pccw/single-spa-vue": "https://spa-poc-vue.netlify.app/js/app.ced75bcc.js",
-    "@pccw/single-spa-angular": "https://angular-single-spa-poc.netlify.app/main.js",
-    "@pccw/single-spa-util": "https://spa-poc-util.netlify.app/pccw-single-spa-util.js",
-    "@pccw/single-spa-poc-navbar": "https://spa-poc-navbar.netlify.app/pccw-single-spa-poc-navbar.js",
-    "@pccw/poc-react-single-spa": "https://react-single-spa-poc.netlify.app/pccw-poc-react-single-spa.js"
+    "@example/root-config": "/example-root-config.js",
+    "@example/single-spa-vue": "https://spa-poc-vue.netlify.app/js/app.ced75bcc.js",
+    "@example/single-spa-angular": "https://angular-single-spa-poc.netlify.app/main.js",
+    "@example/single-spa-util": "https://spa-poc-util.netlify.app/example-single-spa-util.js",
+    "@example/single-spa-poc-navbar": "https://spa-poc-navbar.netlify.app/example-single-spa-poc-navbar.js",
+    "@example/poc-react-single-spa": "https://react-single-spa-poc.netlify.app/example-poc-react-single-spa.js"
   }
 }
