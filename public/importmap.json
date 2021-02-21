@@ -1,10 +1,9 @@
 {
   "imports": {
     "@example/root-config": "/example-root-config.js",
-    "@example/single-spa-vue": "https://spa-poc-vue.netlify.app/js/app.ced75bcc.js",
-    "@example/single-spa-angular": "https://angular-single-spa-poc.netlify.app/main.js",
-    "@example/single-spa-util": "https://spa-poc-util.netlify.app/example-single-spa-util.js",
-    "@example/single-spa-poc-navbar": "https://spa-poc-navbar.netlify.app/example-single-spa-poc-navbar.js",
-    "@example/poc-react-single-spa": "https://react-single-spa-poc.netlify.app/example-poc-react-single-spa.js"
+    "@example/single-spa-example-vue": "https://spa-poc-vue.netlify.app/js/app.ced75bcc.js",
+    "@example/single-spa-example-angular": "https://angular-single-spa-poc.netlify.app/main.js",
+    "@example/single-spa-example-navbar": "https://spa-poc-navbar.netlify.app/example-single-spa-poc-navbar.js",
+    "@example/single-spa-example-react": "https://react-single-spa-poc.netlify.app/example-poc-react-single-spa.js"
   }
 }

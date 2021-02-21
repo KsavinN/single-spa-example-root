@@ -4,7 +4,7 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 const CopyPlugin = require("copy-webpack-plugin");
 
 module.exports = (webpackConfigEnv, argv) => {
-  const orgName = "pccw";
+  const orgName = "example";
   const defaultConfig = singleSpaDefaults({
     orgName,
     projectName: "root-config",
