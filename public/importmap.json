@@ -1,7 +1,7 @@
 {
   "imports": {
     "@example/root-config": "/example-root-config.js",
-    "@example/single-spa-example-vue": "https://sad-agnesi-385a93.netlify.app/js/app.772b76ab.js",
+    "@example/single-spa-example-vue": "https://sad-agnesi-385a93.netlify.app/js/app.01e00da1.js",
     "@example/single-spa-example-angular": "https://angular-single-spa-poc.netlify.app/main.js",
     "@example/single-spa-example-navbar": "https://serene-swirles-74680a.netlify.app/example-single-spa-example-navbar.js",
     "@example/single-spa-example-react": "https://modest-noether-f69184.netlify.app/example-single-spa-example-react.js"
