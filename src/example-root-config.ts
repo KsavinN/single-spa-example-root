@@ -13,13 +13,13 @@ registerApplication({
 });
 
 registerApplication({
-  name: "@example/single-spa-angular",
+  name: "@example/single-spa-example-angular",
   app: () => System.import("@example/single-spa-example-angular"),
   activeWhen: ["/angular"],
 });
 
 registerApplication({
-  name: "@example/single-spa-react",
+  name: "@example/single-spa-example-react",
   app: () => System.import("@example/single-spa-example-react"),
   activeWhen: ["/react"],
 });
